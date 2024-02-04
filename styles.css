@@ -21,18 +21,27 @@ main h2, p{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    border: solid yellow;
-    /* float: left; */
+    /* border: solid yellow; */
 }
 
 .nav-container div {
+    display: inline-block;
+    position: relative;
     padding-right: 1rem;
     padding-left: 1rem;
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
     margin-left: 1rem;
-    border: solid green;
+    box-shadow: 0.5px 0.5px 1px 0.5px;
+    border-radius: 5%;
+    /* border: solid green; */
     
+}
+
+.nav-container div:hover{
+    box-shadow: none;
+    transition: box-shadow 1s ease;
+    box-shadow: 0.5px 0.5px 1px 0.5px;
 }
 
 footer p{
