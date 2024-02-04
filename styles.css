@@ -28,6 +28,26 @@ main > h2, p{
     /* border: solid yellow; */
 }
 
+.content1{
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    transition: color 0.5s ease, background-color 1s ease;
+}
+
+.content2{
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    transition: color 0.5s ease, background-color 1s ease;
+}
+
 .nav-container div {
     display: inline-block;
     position: relative;
@@ -41,6 +61,24 @@ main > h2, p{
     /* border: solid green; */
     transition: box-shadow 1s ease, background-color 0.5s ease, color 0.2s ease, transform 0.5s ease;
     /* transform: scale(0.9); */
+}
+
+.content1:hover {
+    h2, p{
+        color: white;
+    }
+    background-color: rgb(var(--base-color), 255);
+    transition: color 0.5s ease, background-color 1s ease;
+    /* border: solid yellow; */
+}
+
+.content2:hover {
+    h2, p{
+        color: white;
+    }
+    background-color: rgb(var(--base-color), 255);
+    transition: color 0.5s ease, background-color 1s ease;
+    /* border: solid yellow; */
 }
 
 .nav-container div:hover{
