@@ -1,0 +1,48 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    background-color: rgb(195, 42, 255);
+    color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+main h2, p{
+    color: rgb(195, 42, 255);
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    border: solid yellow;
+    /* float: left; */
+}
+
+.nav-container div {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    margin-left: 1rem;
+    border: solid green;
+    
+}
+
+footer p{
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    margin-top: 20rem;
+    width: 100%;
+    padding: 14px;
+    color: rgb(195, 42, 255);
+}
+
