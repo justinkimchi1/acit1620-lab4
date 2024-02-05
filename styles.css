@@ -63,18 +63,14 @@ nav div{
 }
 
 .content1:hover {
-    h2, p{
-        color: white;
-    }
+    color: white;
     background-color: rgb(var(--base-color), 255);
     transform: scale(1.0125) translate(0px, -5%);
     transition: color 1s ease, background-color 1s ease, transform 1s ease;
 }
 
 .content2:hover {
-    h2, p{
-        color: white;
-    }
+    color: white;
     background-color: rgb(var(--base-color), 255);
     transform: scale(1.0125) translate(0px, -5%);
     transition: color 1s ease, background-color 1s ease, transform 1s ease;
