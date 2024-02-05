@@ -22,12 +22,12 @@ header {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    color: rgb(var(--base-color), 135);
+    color: #00008B;
 }
 
 .content1{
     display: inline-block;
-    color: rgb(var(--base-color), 255);
+    color: #00008B;
     padding-left: 6px;
     padding-right: 6px;
     margin-left: 5rem;
@@ -39,7 +39,7 @@ header {
 
 .content2{
     display: inline-block;
-    color: rgb(var(--base-color), 255);
+    color: #00008B;
     padding-left: 6px;
     padding-right: 6px;
     margin-left: 5rem;
