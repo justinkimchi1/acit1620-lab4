@@ -22,7 +22,7 @@ header {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    color: rgb(var(--base-color), 255);
+    color: rgb(var(--base-color), 195);
 }
 
 .content1{
@@ -64,20 +64,20 @@ nav div{
 
 .content1:hover {
     color: white;
-    background-color: rgb(var(--base-color), 255);
+    background-color: rgb(var(--base-color), 195);
     transform: scale(1.0125) translate(0px, -5%);
     transition: color 1s ease, background-color 1s ease, transform 1s ease;
 }
 
 .content2:hover {
     color: white;
-    background-color: rgb(var(--base-color), 255);
+    background-color: rgb(var(--base-color), 195);
     transform: scale(1.0125) translate(0px, -5%);
     transition: color 1s ease, background-color 1s ease, transform 1s ease;
 }
 
 nav div:hover{
-    box-shadow: 2px 6px 5px darkgray;
+    box-shadow: 2px 6px 10px darkgray;
     background-color: rgb(var(--base-color), 255);
     color: white;
     transform: scale(1.2) translate(0px, -12%);
@@ -85,13 +85,19 @@ nav div:hover{
 }
 
 
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrapper {
+    padding-bottom: 7rem;
+}
 
 footer p{
-    position: fixed;
+    position: absolute;
     text-align: center;
-    left: 0;
     bottom: 0;
-    margin-top: 20rem;
     width: 100%;
     padding: 14px;
     color: rgb(var(--base-color), 255);
