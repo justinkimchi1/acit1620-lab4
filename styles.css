@@ -22,7 +22,7 @@ header {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    color: #00008B;
+    color: rgb(var(--base-color), 165);
 }
 
 .content1{
