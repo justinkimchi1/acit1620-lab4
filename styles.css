@@ -23,8 +23,6 @@ header {
     flex-direction: row;
     list-style-type: none;
     color: rgb(var(--base-color), 255);
-    /* box-shadow: 0px 2px; */
-    /* border: solid yellow; */
 }
 
 .content1{
@@ -33,6 +31,7 @@ header {
     padding-left: 6px;
     padding-right: 6px;
     margin-left: 5rem;
+    width: 90%;
     margin-top: 3rem;
     border-radius: 10px;
     transition: color 1s ease, background-color 1s ease, transform 1s ease;
@@ -44,6 +43,7 @@ header {
     padding-left: 6px;
     padding-right: 6px;
     margin-left: 5rem;
+    width: 90%;
     margin-top: 3rem;
     border-radius: 10px;
     transition: color 1s ease, background-color 1s ease, transform 1s ease;
@@ -60,7 +60,6 @@ nav div{
     box-shadow: 0px 2px 5px grey;
     border-radius: 5%;
     transition: box-shadow 1s ease, background-color 0.5s ease, color 0.2s ease, transform 0.5s ease;
-    /* border: solid green; */
 }
 
 .content1:hover {
@@ -70,7 +69,6 @@ nav div{
     background-color: rgb(var(--base-color), 255);
     transform: scale(1.0125) translate(0px, -5%);
     transition: color 1s ease, background-color 1s ease, transform 1s ease;
-    /* border: solid yellow; */
 }
 
 .content2:hover {
@@ -80,7 +78,6 @@ nav div{
     background-color: rgb(var(--base-color), 255);
     transform: scale(1.0125) translate(0px, -5%);
     transition: color 1s ease, background-color 1s ease, transform 1s ease;
-    /* border: solid yellow; */
 }
 
 nav div:hover{
