@@ -22,7 +22,7 @@ header {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    color: rgb(var(--base-color), 195);
+    color: rgb(var(--base-color), 135);
 }
 
 .content1{
@@ -64,14 +64,14 @@ nav div{
 
 .content1:hover {
     color: white;
-    background-color: rgb(var(--base-color), 195);
+    background-color: rgb(var(--base-color), 135);
     transform: scale(1.0125) translate(0px, -5%);
     transition: color 1s ease, background-color 1s ease, transform 1s ease;
 }
 
 .content2:hover {
     color: white;
-    background-color: rgb(var(--base-color), 195);
+    background-color: rgb(var(--base-color), 135);
     transform: scale(1.0125) translate(0px, -5%);
     transition: color 1s ease, background-color 1s ease, transform 1s ease;
 }
