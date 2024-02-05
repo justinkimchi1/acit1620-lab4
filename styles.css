@@ -17,35 +17,38 @@ header {
     text-align: center;
 }
 
-main > h2, p{
+/* main > h2, p{
     color: rgb(var(--base-color), 255);
-}
+} */
 
 .nav-container {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    color: rgb(var(--base-color), 255);
     /* border: solid yellow; */
 }
 
 .content1{
     display: inline-block;
+    color: rgb(var(--base-color), 255);
     padding-left: 6px;
     padding-right: 6px;
     margin-left: 5rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
     border-radius: 10px;
-    transition: color 0.5s ease, background-color 1s ease;
+    transition: color 1s ease, background-color 1s ease, transform 1s ease;
 }
 
 .content2{
     display: inline-block;
+    color: rgb(var(--base-color), 255);
     padding-left: 6px;
     padding-right: 6px;
     margin-left: 5rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
     border-radius: 10px;
-    transition: color 0.5s ease, background-color 1s ease;
+    transition: color 1s ease, background-color 1s ease, transform 1s ease;
 }
 
 .nav-container div {
@@ -68,7 +71,8 @@ main > h2, p{
         color: white;
     }
     background-color: rgb(var(--base-color), 255);
-    transition: color 0.5s ease, background-color 1s ease;
+    transform: scale(1.0125) translate(0px, -5%);
+    transition: color 1s ease, background-color 1s ease, transform 1s ease;
     /* border: solid yellow; */
 }
 
@@ -77,7 +81,8 @@ main > h2, p{
         color: white;
     }
     background-color: rgb(var(--base-color), 255);
-    transition: color 0.5s ease, background-color 1s ease;
+    transform: scale(1.0125) translate(0px, -5%);
+    transition: color 1s ease, background-color 1s ease, transform 1s ease;
     /* border: solid yellow; */
 }
 
@@ -101,5 +106,6 @@ footer p{
     width: 100%;
     padding: 14px;
     color: rgb(var(--base-color), 255);
+    border-top: solid rgb(var(--base-color), 255);
 }
 
